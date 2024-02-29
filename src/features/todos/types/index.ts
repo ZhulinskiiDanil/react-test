@@ -1,0 +1,1 @@
+export type Todo = {  id: string;  title: string;  userId: string;  createdAt: string;  completed: boolean;};

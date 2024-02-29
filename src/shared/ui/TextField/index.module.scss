@@ -1,0 +1,24 @@
+@import './variants/default.scss';
+
+div.input {
+  ::after,
+  ::before {
+    content: unset;
+  }
+
+  [class*=MuiInputBase-root] {
+    border: 2px solid;
+    border-radius: .75rem;
+    box-shadow: none !important;
+    gap: .625rem;
+  
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: var(--font-family, inherit);
+    line-height: 120%;
+  }
+
+  [class*=MuiInputBase-input] {
+    padding: .75rem 1rem;
+  }
+}

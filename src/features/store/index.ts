@@ -1,0 +1,1 @@
+import { rootReducer } from './rootReducer';import { configureStore } from '@reduxjs/toolkit';import { todosApi } from '@/features/store/api/todos/todos.api';export const store = configureStore({  reducer: rootReducer,  middleware: (getDefaultMiddleware) =>    getDefaultMiddleware().concat(todosApi.middleware)});

@@ -1,0 +1,55 @@
+div.input.default {
+  [class*=MuiInputBase-root] {
+    border-color: #ffffff08;
+    background: #1c2026;
+    color: #ffffff;
+
+    ::placeholder {
+      color: #8d97a6;
+    }
+  }
+
+  &:hover [class*=MuiInputBase-root] {
+    border-color: #ffffff08;
+    background: #171b21;
+    color: #ffffff;
+
+    ::placeholder {
+      color: #8d97a6;
+    }
+  }
+
+  &:active [class*=MuiInputBase-root],
+  &[class*=Mui-active] [class*=MuiInputBase-root] {
+    border-color: #ffffff08;
+    background: #262a30;
+    color: #ffffff;
+
+    ::placeholder {
+      color: #8d97a6;
+    }
+  }
+
+  &:focus [class*=MuiInputBase-root],
+  &[class*=Mui-focused] [class*=MuiInputBase-root],
+  &[class*=Mui-focusVisible] [class*=MuiInputBase-root] {
+    border-color: #ffffff08;
+    background: #1c2026;
+    color: #ffffff;
+
+    ::placeholder {
+      color: #8d97a6;
+    }
+  }
+
+  &:disabled [class*=MuiInputBase-root],
+  &[class*=Mui-disabled] [class*=MuiInputBase-root] {
+    border-color: #ffffff08;
+    background: #252a30;
+    color: #586271;
+
+    ::placeholder {
+      color: #586271;
+    }
+  }
+}

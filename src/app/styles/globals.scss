@@ -1,0 +1,47 @@
+@import './_fonts.scss';
+
+:root {
+  --font-family: 'Roboto Flex', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  scroll-behavior: smooth;
+  list-style-type: none;
+
+  &::-webkit-scrollbar {
+    width: .4rem;
+    height: .4rem;
+    background: #E2B893;
+    border-radius: 999rem;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #ECE5D6;
+    border-radius: 999rem;
+    // border-radius: 999rem;
+    // transition: .15s ease;
+  }
+}
+
+body,
+html {
+  color: #fff;
+  background: #151515;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+label,
+input,
+button {
+  color: inherit;
+}

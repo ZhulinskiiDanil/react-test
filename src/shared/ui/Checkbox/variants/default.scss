@@ -1,0 +1,28 @@
+.checkbox.default {
+  background: #ff1469;
+  color: #ffffff;
+
+  &:hover {
+    background: #ff1469cc;
+    color: #ffffff;
+  }
+
+  &:active,
+  &[class*=Mui-active] {
+    background: #ff146980;
+    color: #ffffff;
+  }
+
+  &:focus,
+  &[class*=Mui-focused],
+  &[class*=Mui-focusVisible] {
+    background: #ff1469cc;
+    color: #ffffff;
+  }
+
+  &:disabled,
+  &[class*=Mui-disabled] {
+    background: #22272d;
+    color: #586271;
+  }
+}

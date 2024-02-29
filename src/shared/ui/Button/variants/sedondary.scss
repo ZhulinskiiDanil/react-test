@@ -1,0 +1,28 @@
+button.button.secondary {
+  background: #383c44;
+  color: #ffffff;
+
+  &:hover {
+    background: #383c44cc;
+    color: #ffffff;
+  }
+
+  &:active,
+  &[class*=Mui-active] {
+    background: #383c4480;
+    color: #ffffff;
+  }
+
+  &:focus,
+  &[class*=Mui-focused],
+  &[class*=Mui-focusVisible] {
+    background: #383c44cc;
+    color: #ffffff;
+  }
+
+  &:disabled,
+  &[class*=Mui-disabled] {
+    background: #22272d;
+    color: #586271;
+  }
+}

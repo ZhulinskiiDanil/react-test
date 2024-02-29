@@ -1,0 +1,1 @@
+'use client';// Componentsimport { Todos } from '@/widgets/todos/ui';function HomePage() {  return <Todos />;}export default HomePage;

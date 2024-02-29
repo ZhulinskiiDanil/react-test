@@ -1,0 +1,1 @@
+import { combineReducers } from '@reduxjs/toolkit';import { todosApi } from './api/todos/todos.api';export const rootReducer = combineReducers({  [todosApi.reducerPath]: todosApi.reducer});
